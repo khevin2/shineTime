@@ -10,3 +10,5 @@ function showMenu() {
 function hideMenu() {
   document.getElementsByClassName("navbar")[0].style.display = "none";
 }
+let el4 = document.getElementsByClassName('navbar')[0];
+el4.addEventListener('focusout', hideMenu,false);

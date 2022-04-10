@@ -103,6 +103,9 @@ h2 {
   font-weight: 600;
   color: #fff;
 }
+.links li a {
+background: transparent;
+}
 
 .marquee {
   /* position: absolute; */
